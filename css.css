@@ -1,0 +1,398 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+
+    background-image: url('bobbank.png');
+    background-size: cover;
+
+}
+
+.itam {
+    display: flex;
+    position: sticky;
+
+}
+
+.nav_logo>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.nav_logo span {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(253, 45, 45);
+    font-weight: 600;
+    margin-top: 0%;
+}
+
+.nav_itam {
+    list-style: none;
+    display: flex;
+    height: 50px;
+    margin: 30px;
+    padding-bottom: 5px;
+}
+
+.nav_itam :hover {
+    background-color: rgb(255, 94, 0);
+}
+
+.nav_itam a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 20px 9px;
+    font-size: x-large;
+    color: white;
+}
+
+.nav_button {
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+.search {
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px solid rgb(53, 35, 190);
+}
+
+.btn-search {
+    background-color: transparent;
+
+    height: 45px;
+    width: 80px;
+    margin-left: 10px;
+    color: white;
+    border: 1px solid black;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btn-login {
+    background-color: blue;
+    color: white;
+    border: 0px;
+    font-size: large;
+    height: 45px;
+    width: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+
+}
+
+.btn-new_account {
+    background-color: rgb(255, 94, 0);
+    border: 0px;
+    color: white;
+    height: 45px;
+    width: 105px;
+    margin-left: 5px;
+    font-size: 18px;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+
+.line {
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 3px;
+}
+
+.information {
+    display: flex;
+    margin-top: 61px;
+
+}
+
+.info1 {
+    width: 60%;
+    margin-left: 100px;
+}
+
+.info1 p {
+    font-size: x-large;
+}
+
+.info2 {
+    width: 40%;
+    margin-left: 10px;
+
+
+}
+
+.info2 img {
+    height: 200px;
+    width: 80%;
+}
+
+.looking_search {
+
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.btn-looking {
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: large;
+}
+
+.input-group-append {
+    margin-top: 11px;
+    margin-left: 10px;
+}
+
+.contact-number {
+    display: flex;
+    justify-content: end;
+}
+
+.contact-number p {
+    color: rgb(244, 13, 13);
+    font-size: x-large;
+    margin: 10px 25px;
+}
+
+.buttons-ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons-ul li {
+    font-size: x-large;
+    background-color: rgb(255, 94, 0);
+    border: 1px solid rgb(245, 118, 40);
+    padding: 20px 50px;
+}
+
+.ul-li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.ul-li:hover {
+    background-color: rgb(255, 72, 0);
+}
+
+.contain {
+    margin-top: 10px;
+}
+
+.card {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card_itame {
+    height: 450px;
+    width: 23%;
+    border: 1px solid rgb(160, 160, 160);
+    margin: 15px 10px;
+    border-radius: 10px;
+}
+
+.icone img {
+    margin: 20px 40px;
+}
+
+.tital {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.card-text li::before {
+    content: ">";
+
+
+}
+
+.card-text ul li {
+    list-style: none;
+    font-size: 25px;
+    margin: 30px 0px 15px 50px;
+}
+
+.btn-apply-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.btn-apply {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(255, 94, 0);
+    ;
+    border: 1px solid rgb(255, 94, 0);
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-apply:hover {
+    background-color: rgb(223, 108, 41);
+}
+
+.btn-know-link {
+    text-decoration: none;
+    color: rgb(255, 94, 0);
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.btn-know {
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    ;
+    border: 1px solid rgb(255, 94, 0);
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.btn-know:hover {
+    background-color: rgb(248, 248, 238);
+}
+
+.card-body-buttons {
+    margin: 21% 2px 0px 50px;
+}
+
+.card-body-buttons-3list {
+    margin: 8% 2px 0px 50px;
+}
+
+.contain-information-pepole {
+    height: 65px;
+}
+
+.contain-information-pepole ul {
+    display: flex;
+    justify-content: center;
+}
+
+.contain-information-pepole ul li {
+    margin: 20px 30px 10px 10px;
+    font-size: 23px;
+    color: rgb(145, 20, 20);
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: underline;
+    font-family: 'Arial Narrow Bold', sans-serif
+}
+
+.contain-information-pepole ul li:hover {
+    color: rgb(7, 161, 7)
+}
+
+.footer {
+
+    display: flex;
+    flex-flow: column;
+    background-color: #162b75;
+}
+
+.location-atm_branch {
+    padding: 5% 25% 4% 25%;
+    border: 5px solid rgb(255, 94, 0);
+    margin: 20px auto;
+    font-family: Helvetica, sans-serif;
+}
+
+.location-atm_branch p {
+    color: white;
+    font-size: 55px;
+    margin-bottom: 45px;
+}
+
+.label-ATM {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+.label-branch {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.radio-branch {
+    margin-left: 23%;
+}
+
+.city-district {
+    font-size: 20px;
+    border: 0px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 11%;
+}
+
+.Btn-find {
+    background-color: #1da6e3;
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    border: 0px;
+    margin-left: 0px;
+    color: white;
+    padding-left: 0px;
+    cursor: pointer
+}
+
+.copiright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.copiright p {
+    color: white;
+    margin: auto;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body-more-info {
+    position: absolute;
+    top: 4840px;
+    left: 20%;
+    display: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #1da6e3;
+
+}
+
+.line2 {
+    font-size: 45px;
+}

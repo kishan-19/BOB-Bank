@@ -1,0 +1,480 @@
+@media screen and (max-width:1710px) {
+    .nav_logo span {
+        font-size: 20px;
+    }
+
+    .nav_button {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:1563px) {
+
+    .contain-information-pepole ul li {
+        font-size: 20px;
+    }
+
+    .card-body-buttons {
+        margin-left: 10px;
+    }
+
+    .card-body-buttons-3list {
+        margin-left: 10px;
+    }
+
+    .card-text ul li {
+        font-size: 20px;
+    }
+
+    .tital {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .nav_button {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .btn-apply {
+        width: 110px;
+        height: 50px;
+        margin-left: 5px;
+    }
+
+    .btn-know {
+        width: 110px;
+        height: 50px;
+    }
+
+    .contain-information-pepole ul li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:1363px) {
+    .nav_button {
+        margin-left: 0%;
+    }
+
+    .contain-information-pepole ul li {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1293px) {
+    .buttons-ul li {
+        padding: 25px 30px;
+    }
+
+    .search {
+        width: 250px;
+    }
+
+    .btn-search {
+        width: 60px;
+        height: 40px;
+    }
+
+    .btn-login {
+        width: 60px;
+        height: 40px;
+    }
+
+    .btn-new_account {
+        width: 99px;
+    }
+
+    .contain-information-pepole ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1187px) {
+    .information {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+
+    .info1 {
+        width: 90%;
+        margin-left: 70px;
+    }
+
+    .info2 {
+        margin: auto;
+    }
+
+    /* navbar change */
+    .itam {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 482px;
+    }
+
+    .nav_logo {
+        margin: auto;
+    }
+
+    .nav_logo span {
+        font-size: xx-large;
+    }
+
+    .nav_itam {
+        flex-direction: column;
+        height: 130px;
+    }
+
+    .nav_itam li {
+        margin: 5px auto;
+
+    }
+
+    .search {
+        display: block;
+        margin: 0px auto;
+    }
+
+    .btn-search {
+        display: block;
+        margin: 10px auto;
+        width: 80px;
+        height: 45px;
+    }
+
+    .btn-login {
+        display: block;
+        margin: 10px auto;
+        height: 45px;
+        width: 80px;
+    }
+
+    .btn-new_account {
+        display: block;
+        margin: auto;
+        font-size: 18px;
+        height: 45px;
+        width: 105px;
+
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 72px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .buttons-ul {
+        flex-direction: column;
+    }
+
+    .buttons-ul li {
+        margin: 0px 11%;
+    }
+
+    .buttons-ul li a {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card_itame {
+        margin: 21px auto;
+        width: 50%;
+        height: 529px;
+    }
+
+    .icone img {
+        height: 88px;
+    }
+
+    .tital {
+        font-size: 50px;
+    }
+
+    .card-text ul li {
+        font-size: 35px;
+    }
+
+    .card-body-buttons {
+        margin: 95px 0px 0px 0px;
+    }
+
+    .btn-apply {
+        width: 195px;
+        height: 68px;
+        margin-left: 36px;
+    }
+
+    .btn-apply-link {
+        font-size: 30px;
+    }
+
+    .btn-know {
+        width: 195px;
+        height: 68px;
+    }
+
+    .btn-know-link {
+        font-size: 30px;
+    }
+
+    .btn-know3 {
+        margin-left: 36px;
+    }
+
+    .contain-information-pepole {
+        height: 390px;
+        margin-top: 130px;
+        transition: all 0.7s ease-out;
+    }
+
+    .contain-information-pepole ul {
+        flex-direction: column;
+    }
+
+    .contain-information-pepole ul li {
+        margin: 10px auto;
+        font-size: 30px;
+    }
+
+    /* services more */
+    .body-more-info {
+        display: block;
+    }
+
+    .h-info-resp {
+        height: 90px;
+    }
+
+    .v-info-resp {
+        visibility: hidden;
+    }
+
+    /* footer */
+    .location-atm_branch {
+        padding: 24px 86px 27px;
+    }
+}
+
+@media screen and (max-width: 1034px) {
+    .tital {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .body-more-info {
+        left: 25vw;
+        top: 563vh;
+    }
+
+    .line2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .card_itame {
+        height: 600px;
+    }
+
+    .card-body-buttons {
+        margin: 95px 0px 0px 14px;
+    }
+
+    .btn-know {
+        margin: 10px 0px 0px 37px;
+    }
+
+    .card-body-buttons-3list {
+        margin: 0px 0px 0px 16px;
+    }
+
+    .body-more-info {
+        top: 796vh;
+        left: 29vw;
+    }
+}
+
+@media screen and (max-width:744px) {
+    .location-atm_branch p {
+        font-size: 26px;
+    }
+
+    .radio-branch {
+        margin-left: 6%;
+    }
+
+    .city-district {
+        margin-left: 0px;
+    }
+
+    .info1 {
+        margin-left: 29px;
+    }
+
+    .info2 {
+        margin-left: 59px;
+    }
+
+    .btn-looking {
+        width: 316px;
+    }
+
+    .input-group-append {
+        margin-left: 8px;
+    }
+
+    .card_itame {
+        width: 82vw;
+    }
+
+    .tital {
+        font-size: 33px;
+    }
+
+    .card-text ul li {
+        font-size: 29px;
+    }
+
+    .contain-information-pepole ul li {
+        font-size: 24px;
+    }
+
+    .location-atm_branch {
+        padding: 25px 8px 25px 8px;
+    }
+
+
+}
+
+@media screen and (max-width:862px) {
+    .body-more-info {
+        top: 816vh;
+        left: 30vw;
+    }
+}
+
+@media screen and (max-width:588px) {
+    .body-more-info {
+        top: 832vh;
+        left: 19vw;
+    }
+}
+
+@media screen and (max-width:469px) {
+    .body-more-info {
+        top: 848vh;
+        left: 12vw;
+    }
+
+
+}
+
+@media screen and (max-width:377px) {
+    .info1 {
+        width: 91%;
+        margin: 10px 12px;
+    }
+
+
+    .info1 p {
+        font-size: 30px;
+    }
+
+    .info2 {
+        width: 448px;
+        margin: 5px;
+    }
+
+    .btn-looking {
+        width: 316px;
+    }
+
+    .card_itame {
+        width: 93%;
+    }
+
+    .tital {
+        font-size: 33px;
+    }
+
+    .card-text ul li {
+        font-size: 29px;
+    }
+
+    .card-body-buttons {
+        margin: 31px 0px 0px 14px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-know {
+        margin: 13px 0px 0px 36px;
+    }
+
+    .card-body-buttons-3list {
+        margin: -13px 0px 0px 11px;
+    }
+
+    .card-body-buttons-3list>.btn-apply {
+        height: 59px;
+    }
+
+    .card-body-buttons-3list>.btn-know {
+        margin: 3px 0px 0px 36px;
+        height: 59px;
+    }
+
+    .contain-information-pepole {
+        margin-top: 89px;
+    }
+
+    .body-more-info {
+        top: 897vh;
+        left: 5px;
+    }
+
+    .line2 {
+        font-size: 27px;
+    }
+
+    .contain-information-pepole ul li {
+        font-size: 23px;
+    }
+
+    /* footer */
+    .location-atm_branch {
+        padding: 25px 1px 21px 1px;
+        margin: 16px auto 0px;
+    }
+
+    .location-atm_branch p {
+        font-size: 23px;
+        margin: 11px 51px;
+    }
+
+    .city-district {
+        margin-left: 4px;
+    }
+
+    .Btn-find {
+        width: 70px;
+    }
+
+    .copiright {
+        font-size: 13px;
+    }
+}
